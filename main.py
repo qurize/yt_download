@@ -54,6 +54,5 @@ while True:
             base = path + "\\" + VideoTitle
             print("New Video Title is :" + VideoTitle)
             os.rename(my_file, base + '.mp3')
-            print(video.title, ' \nhas been successfully downloaded as MP3')
 
 window.close()
