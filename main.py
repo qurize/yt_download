@@ -54,6 +54,6 @@ while True:
             base = path + "\\" + VideoTitle
             print("New Video Title is :" + VideoTitle)
             os.rename(my_file, base + '.mp3')
-            window["-path-"].update("")
+            window["-url-"].update("")
 
 window.close()
